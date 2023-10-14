@@ -1,0 +1,15 @@
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\bin\Debug\net6.0\gamecharacter.exe
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\bin\Debug\net6.0\gamecharacter.deps.json
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\bin\Debug\net6.0\gamecharacter.runtimeconfig.json
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\bin\Debug\net6.0\gamecharacter.dll
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\bin\Debug\net6.0\gamecharacter.pdb
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\gamecharacter.csproj.AssemblyReference.cache
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\gamecharacter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\gamecharacter.AssemblyInfoInputs.cache
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\gamecharacter.AssemblyInfo.cs
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\gamecharacter.csproj.CoreCompileInputs.cache
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\gamecharacter.dll
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\refint\gamecharacter.dll
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\gamecharacter.pdb
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\gamecharacter.genruntimeconfig.cache
+C:\Users\zheka\source\repos\gamecharacter\gamecharacter\obj\Debug\net6.0\ref\gamecharacter.dll

@@ -8,13 +8,15 @@ namespace gamecharacter
         private bool camp;
         private int life_amount;
         private int total_life;
-        public void info(string name, int x, int y, bool camp, int life_amount)
+        private int attack;
+        public void info(string name, int x, int y, bool camp, int life_amount, int attack)
         {
             this.name = name;
             this.x = x;
             this.y = y;
             this.camp = camp;
             this.life_amount = life_amount;
+            this.attack = attack;
             maxhp();
         }
         public (int x, int y) coord()
@@ -29,6 +31,10 @@ namespace gamecharacter
         {
             return name;
         }
+        public int GetAttack()
+        {
+            return attack;
+        }
         private void maxhp()
         { total_life = life_amount; }
         public void print()
@@ -38,6 +44,7 @@ namespace gamecharacter
             Console.WriteLine($"{y}");
             Console.WriteLine($"Лагерь {camp}");
             Console.WriteLine($"Количество очков здоровья:{life_amount} из {total_life}");
+            Console.WriteLine($"Возможная атака: {attack}");
         }
         public void movex(int dx)
         {
@@ -57,10 +64,11 @@ namespace gamecharacter
         }
         public void delete()
         {
+            Console.WriteLine($"Персонаж {name} умер");
             name = null;
             x = -1;
             y = -1;
-            life_amount = 0;
+            life_amount = -1;
         }
         public void damage(int dc)
         {
@@ -69,7 +77,6 @@ namespace gamecharacter
                 delete();
             }
             else life_amount -= dc;
-
         }
         public void heal(int lr)
         {
